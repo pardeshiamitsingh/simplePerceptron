@@ -1,0 +1,11 @@
+Package: perceptron
+Title: Simple Perceptron
+Description: Desc of package
+Version: 0.1
+Author: Amitsingh Pardeshi
+Depends: R(>= 3.0.1)
+Imports: lattice
+Suggests: lattice
+License: TTU
+LazyData: true
+RoxygenNote: 6.0.1
