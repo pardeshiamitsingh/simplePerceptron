@@ -1,7 +1,7 @@
-
+library(devtools)
+#install package from GITHUB
+devtools::install_github("pardeshiamitsingh/simplePerceptron")
 library(perceptron)
-
-#install.packages("perceptron")
 
 datasub <- read.csv("LogicalAnd.csv", stringsAsFactors=FALSE)
 names(datasub) <- c("x1", "x2", "ytarget")
